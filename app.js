@@ -280,10 +280,27 @@ const maxOfThree = function(x, y, z) {
 class Person{
    constructor(name, email, age, purchased);
          purchasedArray = [];
-         const User = new Person(name, email, age, purchased);
+         const User = new Person(name, email, age, location, purchased);
          User.push("carbohydrates");
          User.push("peace of mind");
          User.push("Merino jodhpurs");
+
+         User = ("Kenny", ("kennyworks@gmail.com", 19, atHome, (purchasedArray));
+         console.log(name);
+         console.log(atHome);
+         console.log(age: 55);
+         User.push("The One Ring");
+         User.push("A latte");
+         console.log("A latte");
+
+
+         User.purchasedArray{ for (let i = 0; i < 100; i++);
+         {
+         console.log(i);
+         }
+      }
+      
+        
 }
 
 user.friend = {
