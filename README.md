@@ -206,7 +206,7 @@ Given the following array: `const myArray = [5, 10, 500, 20]`
 - Did you mutate the array? What does mutate mean? Did the .reverse()method return anything?
 
 --
-Yes I did mutate the array, to mutate the array is to change the array itself without just returning ot creating a new array.
+Yes I did mutate the array, to mutate the array is to change the array itself without just returning or creating a new array.
 
 
 ### F. Biggie Smalls
