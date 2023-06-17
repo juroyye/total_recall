@@ -1,213 +1,213 @@
 // STRINGS
 
-firstVariable = "hello world";
-firstVariable = 1;
-let secondVariable = firstVariable;
-secondVariable = "any string";
+// firstVariable = "hello world";
+// firstVariable = 1;
+// let secondVariable = firstVariable;
+// secondVariable = "any string";
 
-console.log(firstVariable); //1
+// console.log(firstVariable); //1
 
-const yourName = "Justin";
-let hello = `Hello, my name is ${yourName}`
-console.log(hello);
+// const yourName = "Justin";
+// let hello = `Hello, my name is ${yourName}`
+// console.log(hello);
 
-BOOLEANS
+// BOOLEANS
 
-const a = 4; 
-const b = 53; 
-const c = 57; 
-const d = 16; 
-const e = 'Kevin';
+// const a = 4; 
+// const b = 53; 
+// const c = 57; 
+// const d = 16; 
+// const e = 'Kevin';
 
-console.log(a < b); 
-console.log(c > d); 
-console.log('Name' == 'Name');
+// console.log(a < b); 
+// console.log(c > d); 
+// console.log('Name' == 'Name');
 
-FOR THE NEXT TWO, USE ONLY && OR ||
-console.log(true || false); 
-console.log(false && false && false && false && false || true); 
-console.log(false === false) 
-console.log(e == 'Kevin'); 
-console.log(a != b != c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations) 
-console.log(a == a || d); // note: the answer is a simple arithmetic equation, not something "weird" console.log(48 __ '48');
-
-
-//the Farm
-let animal = "cow";
-
-const moo = (a) => {
-   return a.toLowerCase === "cow"? "mooooo" : "hey, that's not a cow"
-} 
-
-console.log(moo(animal));
-Driver's Ed
-
-let age = (a){
-   if (a > 16);
-    console.log("Here are the keys!");
-    else{
-      console.log("Sorry, you're too young.");
-    }
-}
-LOOPS
-
-The Basics
-
-const array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-for(let i = 0; i< 100; i++);
-console.log(array);
+// FOR THE NEXT TWO, USE ONLY && OR ||
+// console.log(true || false); 
+// console.log(false && false && false && false && false || true); 
+// console.log(false === false) 
+// console.log(e == 'Kevin'); 
+// console.log(a != b != c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations) 
+// console.log(a == a || d); // note: the answer is a simple arithmetic equation, not something "weird" console.log(48 __ '48');
 
 
-for(i=10;i<=100;i=i+1 ) 
-{
-  console.log(i)
-}
+// //the Farm
+// let animal = "cow";
 
-for (let i = 12; i <=4000; i+=3)
-{
-console.log(i);
-}
+// const moo = (a) => {
+//    return a.toLowerCase === "cow"? "mooooo" : "hey, that's not a cow"
+// } 
 
+// console.log(moo(animal));
+// Driver's Ed
 
-Get Even;
+// let age = (a){
+//    if (a > 16);
+//     console.log("Here are the keys!");
+//     else{
+//       console.log("Sorry, you're too young.");
+//     }
+// }
+// LOOPS
 
-{for (let i = 0; i <=100; i++)
-   {
-   console.log(i);
-     if(i % 2 == 0){
-      console.log("<-- is an even number");
-    }
-   }
-   }
+// The Basics
 
-Give Me 5
-
-{for (let i = 0; i <=100; i++)
-   {
-   console.log(i);
-     if(i % 5 == 0){
-      console.log("I found a number. High five!");
-    }
-    if(i % 3 == 0){
-      console.log("I found a number! Three is a crowd!")
-    }
-   }
-   }
-
-Savings Account
-
-var = bank_account[1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-for(let i = 0; i <= 9, )
-
-ARRAYS & CONTROL FLOW
-
-OBJECTS
-
-//  Given the following 
-
-array: const myArray = [5, 10, 500, 20]{myArray.push(Aegon);}
+// const array = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// for(let i = 0; i< 100; i++);
+// console.log(array);
 
 
+// for(i=10;i<=100;i=i+1 ) 
+// {
+//   console.log(i)
+// }
 
-// - Add the string "Aegon"to the end of the array. Add another string of your choice to the end of the array.
-
-const myArray = [5, 10, 500, 20];{
-   myArray.push("Aegon", "Justin");
- console.log(myArray);
-}
+// for (let i = 12; i <=4000; i+=3)
+// {
+// console.log(i);
+// }
 
 
-// - Remove the 5from the beginning of the array.
+// Get Even;
 
-const myArray = [5, 10, 500, 20];{
-   myArray.push("Aegon", "Justin");
-  myArray.shift(myArray);
- console.log(myArray);
-}
+// {for (let i = 0; i <=100; i++)
+//    {
+//    console.log(i);
+//      if(i % 2 == 0){
+//       console.log("<-- is an even number");
+//     }
+//    }
+//    }
 
-// - Add the string "Bob Marley"to the beginning of the array.
+// Give Me 5
 
-const myArray = [5, 10, 500, 20];{
-   myArray.push("Aegon", "Justin");
-  myArray.shift(myArray);
- myArray.push("Bob Marley");
- console.log(myArray);
-}
+// {for (let i = 0; i <=100; i++)
+//    {
+//    console.log(i);
+//      if(i % 5 == 0){
+//       console.log("I found a number. High five!");
+//     }
+//     if(i % 3 == 0){
+//       console.log("I found a number! Three is a crowd!")
+//     }
+//    }
+//    }
 
-// - Remove the string of your choice from the end of the array.
+// Savings Account
 
-const myArray = [5, 10, 500, 20];{
-   myArray.push("Aegon", "Bob Marley");
-  myArray.shift(myArray);
- console.log(myArray);
-}
+// var = bank_account[1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// for(let i = 0; i <= 9, )
 
-// - Reverse this array using `Array.prototype.reverse()`. 
+// ARRAYS & CONTROL FLOW
 
-const myArray = [5, 10, 500, 20];{
-   myArray.push("Aegon", "Bob Marley");
-  myArray.shift(myArray);
-  myArray.reverse();
- console.log(myArray);
-}
+// OBJECTS
 
-// - Did you mutate the array? What does mutate mean? Did the .reverse()method return anything?
+// //  Given the following 
+
+// array: const myArray = [5, 10, 500, 20]{myArray.push(Aegon);}
 
 
 
-// Biggie Smalls
+// // - Add the string "Aegon"to the end of the array. Add another string of your choice to the end of the array.
 
-if (num < 100) {
-   console.log("little number");
-} else if (num >= 100) {
-   console.log("big number");
-} 
-
+// const myArray = [5, 10, 500, 20];{
+//    myArray.push("Aegon", "Justin");
+//  console.log(myArray);
+// }
 
 
-// Monkey in the Middle
- if (num < 5) {
-   console.log("Little number");
-} else if (num > 10) {
-   console.log("Big number");
-} else {
-   console.log("monkey");
-}
+// // - Remove the 5from the beginning of the array.
+
+// const myArray = [5, 10, 500, 20];{
+//    myArray.push("Aegon", "Justin");
+//   myArray.shift(myArray);
+//  console.log(myArray);
+// }
+
+// // - Add the string "Bob Marley"to the beginning of the array.
+
+// const myArray = [5, 10, 500, 20];{
+//    myArray.push("Aegon", "Justin");
+//   myArray.shift(myArray);
+//  myArray.push("Bob Marley");
+//  console.log(myArray);
+// }
+
+// // - Remove the string of your choice from the end of the array.
+
+// const myArray = [5, 10, 500, 20];{
+//    myArray.push("Aegon", "Bob Marley");
+//   myArray.shift(myArray);
+//  console.log(myArray);
+// }
+
+// // - Reverse this array using `Array.prototype.reverse()`. 
+
+// const myArray = [5, 10, 500, 20];{
+//    myArray.push("Aegon", "Bob Marley");
+//   myArray.shift(myArray);
+//   myArray.reverse();
+//  console.log(myArray);
+// }
+
+// // - Did you mutate the array? What does mutate mean? Did the .reverse()method return anything?
 
 
-const kristynsCloset = [
-   "left shoe",
-   "cowboy boots",
-   "right sock",
-   "GA hoodie",
-   "green pants",
-   "stained knit hat",
-   "raybans"
-   "marshmallow peeps"
- ];
-console.log("Kristyn is rocking that" + i = 2 + "today");
 
-const thomsCloset = [
-   [
-     // These are Thom's shirts
-     "grey button-up",
-     "dark grey button-up",
-     "light blue button-up",
-     "blue button-up",
-   ],[
-     // These are Thom's pants
-     "grey jeans",
-     "jeans",
-     "footie pajamas"
-   ],[
-     // Thom's accessories
-     "wool mittens",
-     "wool scarf",
-     "raybans"
-   ]
- ];
- console.log(i = 0);
- console.log("Thoms is wearing those grey jeans and those raybans well");
+// // Biggie Smalls
+
+// if (num < 100) {
+//    console.log("little number");
+// } else if (num >= 100) {
+//    console.log("big number");
+// } 
+
+
+
+// // Monkey in the Middle
+//  if (num < 5) {
+//    console.log("Little number");
+// } else if (num > 10) {
+//    console.log("Big number");
+// } else {
+//    console.log("monkey");
+// }
+
+
+// const kristynsCloset = [
+//    "left shoe",
+//    "cowboy boots",
+//    "right sock",
+//    "GA hoodie",
+//    "green pants",
+//    "stained knit hat",
+//    "raybans"
+//    "marshmallow peeps"
+//  ];
+// console.log("Kristyn is rocking that" + i = 2 + "today");
+
+// const thomsCloset = [
+//    [
+//      // These are Thom's shirts
+//      "grey button-up",
+//      "dark grey button-up",
+//      "light blue button-up",
+//      "blue button-up",
+//    ],[
+//      // These are Thom's pants
+//      "grey jeans",
+//      "jeans",
+//      "footie pajamas"
+//    ],[
+//      // Thom's accessories
+//      "wool mittens",
+//      "wool scarf",
+//      "raybans"
+//    ]
+//  ];
+//  console.log(i = 0);
+//  console.log("Thoms is wearing those grey jeans and those raybans well");
 
  // IV Functions
 
@@ -231,103 +231,99 @@ const thomsCloset = [
 // console.log(calculateCube(5)); => 125
 
 
-##G
-const maxOfThree = function(x, y, z) {
-   if(x>y){
+// ##G
+// const maxOfThree = function(x, y, z) {
+//    if(x>y){
      
-     if(x>z){
-       return x;}
-       else{
-       return z;}
-       }
-     if(z>x){
-       if 
-         (y>z)
-         return y;
+//      if(x>z){
+//        return x;}
+//        else{
+//        return z;}
+//        }
+//      if(z>x){
+//        if 
+//          (y>z)
+//          return y;
        
-       else{
-        return z;
-       }
-     }
- }
- var bob = maxOfThree(12, 44, 400);
- console.log(bob);
+//        else{
+//         return z;
+//        }
+//      }
+//  }
+//  var bob = maxOfThree(12, 44, 400);
+//  console.log(bob);
 
- ##H.printLongestWord
+//  ##H.printLongestWord
 
- const printLongestWord = function(x, y, z) {
-   if(x>y){
+//  const printLongestWord = function(x, y, z) {
+//    if(x>y){
      
-     if(x>z){
-       return x;}
-       else{
-       return z;}
-       }
-     if(z>x){
-       if 
-         (y>z)
-         return y;
+//      if(x>z){
+//        return x;}
+//        else{
+//        return z;}
+//        }
+//      if(z>x){
+//        if 
+//          (y>z)
+//          return y;
        
-       else{
-        return z;
-       }
-     }
- }
- var yay = printLongestWord("Joe", "Timothy", "Paul");
- console.log(yay);
+//        else{
+//         return z;
+//        }
+//      }
+//  }
+//  var yay = printLongestWord("Joe", "Timothy", "Paul");
+//  console.log(yay);
 
 
-class Person{
-   constructor(name, email, age, purchased);
-         purchasedArray = [];
-         const User = new Person(name, email, age, location, purchased);
-         User.push("carbohydrates");
-         User.push("peace of mind");
-         User.push("Merino jodhpurs");
+// class Person{
+//    constructor(name, email, age, purchased);
+//          purchasedArray = [];
+//          const User = new Person(name, email, age, location, purchased);
+//          User.push("carbohydrates");
+//          User.push("peace of mind");
+//          User.push("Merino jodhpurs");
 
-         User = ("Kenny", ("kennyworks@gmail.com", 19, atHome, (purchasedArray));
-         console.log(name);
-         console.log(atHome);
-         console.log(age: 55);
-         User.push("The One Ring");
-         User.push("A latte");
-         console.log("A latte");
+         // User = ("Kenny", ("kennyworks@gmail.com", 19, atHome, (purchasedArray));
+         // console.log(name);
+         // console.log(atHome);
+         // console.log(age: 55);
+         // User.push("The One Ring");
+         // User.push("A latte");
+         // console.log("A latte");
+         // const updateUserThat{
+         //    (updateUserThat.uppercase, i++);
+         // }
 
 
-         User.purchasedArray{ for (let i = 0; i < 100; i++);
-         {
-         console.log(i);
-         }
-      }
-      
+//          User.purchasedArray{ for (let i = 0; i < 100; i++);
+//          {
+//          console.log(i);
+//          }
+//       }
+
         
-}
+// }
 
-user.friend = {
-   name: "Grace Hopper",
-   age: 85
-}
+// user.friend = {
+//    name: "Grace Hopper",
+//    age: 85
+// }
 
-
-
-
-
-
-
-
-}
+// const oldAndLoudthat = function(user);
+// oldAndLoudthat.push("oldLady");
+// oldAndLoudthat.unshift("young man");
+// conssole.log(user);
 
 
 
+// let longest = array.reduce( (firstEl, secondEl) => {
+//         //if the first el is greater than the second el return firstEl
+//         return firstEl.length > secondEl.length ? firstEl : secondEl;
+//     }
+// );
 
-
-
-let longest = array.reduce( (firstEl, secondEl) => {
-        //if the first el is greater than the second el return firstEl
-        return firstEl.length > secondEl.length ? firstEl : secondEl;
-    }
-);
-
-console.log(longest)
+// console.log(longest)
 
 
