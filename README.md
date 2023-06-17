@@ -1,9 +1,11 @@
 ## Q + A
-1. How do we assign a value to a variable?
+1. How do we assign a value to a variable? 
+There are multiple ways but one such way is var a = 100.
 2. How do we change the value of a variable?
+We can change the variable later on by re-assigning it, var a = 200.
 3. How do we assign an existing variable to a new variable?
+var a = var b.
 4. Remind me, what are declare, assign, and define?
-
 Declare is to let js know that there is a variable `let a;`
 To assign a value to the variable. I need to use `=`.
 For example: `let a = 0`
@@ -21,6 +23,7 @@ Psuedocode allows us to break down problems into solvable peices that can be tra
 Psudocode is the bridge between our minds and the code. 
 
 6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
+After my research, I believe 90% of time should be spent understanding the issue and 10% should be spent actually fixing it.
 
 ## Strings
 
@@ -33,7 +36,7 @@ Psudocode is the bridge between our minds and the code.
 - Change the value of secondVariableto any string.
 
 What is the value of firstVariable?
-
+The value of firstVariable is 1.
 - Create a variable called yourName and set it equal to your name as a string. Then, write an expression that takes the string `"Hello, my name is "` and the variable yourName. 
 
 ex output: Hello, my name is Jean Valjean
@@ -49,19 +52,19 @@ Using the provided variable definitions, replace the blanks so that all log stat
   `const e = 'Kevin';`
  
 
-  `console.log(a __ b);`
-  `console.log(c __ d);`
-  `console.log('Name' __ 'Name');`
+  `console.log(a < b);`
+  `console.log(c > d);`
+  `console.log('Name' = 'Name');`
   
   ### // FOR THE NEXT TWO, USE ONLY && OR ||
 
-  `console.log(true __ false);`
+  <!-- `console.log(true __ false);`
   `console.log(false __ false __ false __ false __ false __ true);`
   `console.log(false __ false)`
   `console.log(e ___ 'Kevin');`
   `console.log(a __ b ___ c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations)`
   `console.log(a __ a ___ d); // note: the answer is a simple arithmetic equation, not something "weird"`
-  `console.log(48 __ '48');`
+  `console.log(48 __ '48');` -->
 
 ### The Farm 
 
@@ -142,34 +145,51 @@ Check your work! Your `bank_account` should have $10,100 in it.
 
 ### A. Talk about it:
 What are the things in an array called?
+The things in an array are called elements.
+
 Do Arrays guarantee those things will be in order?
+
+No, they do not.
+
 What real-life thing could you model with an array?
 
+You can model lists, such as a grocery list.
 
 
 ### B. Easy Does It
-Create an array that contains three quotes and store it in a variable called quotes
+Create an array that contains three quotes and store it in a variable called quotes.
 
+const = famousQuotes["Fee fi fo fum.", "Et tu, Brute?", "I'm Batman."];
 
 
 ### C. Accessing elements
 
-Given the following array `const randomThings = [1, 10, "Hello", true]`
+Given the following array `const randomThings = [1, 10, "World", true]`
 
 - How do you access the 1st element in the array?
+You would put i = 0, which is targeting the first element since array is a 0 index code.
 
 - Change the value of `"Hello"` to `"World"`
 
-- Check the value of the array to make sure it updated the array using `console.log()`
+Done.
 
+- Check the value of the array to make sure it updated the array using `console.log()`
+Yes.
 
 ### D. Change values
-Given the following array const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+Given the following array const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Octocat", "Cloud City"]
 
 What would you write to access the 3rd element of the array?
+
+You would write i = 2.
+
 Change the value of "Github" to "Octocat"
+
+Done.
+
 Add a new element, "Cloud City" to the array
 
+Done.
 
 
 ### E. Mix It Up
@@ -185,6 +205,8 @@ Given the following array: `const myArray = [5, 10, 500, 20]`
 - Reverse this array using `Array.prototype.reverse()`. 
 - Did you mutate the array? What does mutate mean? Did the .reverse()method return anything?
 
+--
+Yes I did mutate the array, to mutate the array is to change the array itself without just returning ot creating a new array.
 
 
 ### F. Biggie Smalls
